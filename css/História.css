@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(217, 28, 28);
+    text-shadow: 2px 2px 6px rgb(231, 225, 225);
+
+}
+h2{
+    text-align: center;
+    color: rgb(9, 9, 9);
+    padding-bottom: 30px;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 6px rgb(245, 242, 242);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+p{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+:root {
+    --cor-1: #000;
+    --cor-2: #0071e3;
+    --cor-3: #999;
+    --cor-4: #FFF;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.titulo-secao {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#cabecalho {
+    background-color: var(--cor-1);
+    margin-bottom: 30px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #logo {
+    width: 100px;
+}
+
+#cabecalho nav li {
+    display: inline-block;
+}
+
+#cabecalho nav li a {
+    display: block;
+    padding: 20px;
+    color: var(--cor-3);
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+#cabecalho nav li a:hover {
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+} 
+.texto img{
+
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+.texto_2 img{
+    float: left;
+    margin-right: 20px;
+    width: 400px;
+}
+#terceiraparte{
+    margin-top: 50px;
+}
+.texto_3 img{
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    height: 200px;
+}
+.texto_4 img{
+    float: left;
+    margin-right: 20px;
+    width: 270px;
+}
+ 
+#apresentacao {
+    background-color: var(--cor-1);
+}
+
+#apresentacao .titulo-secao {
+    color: var(--cor-4);
+}
+
+#apresentacao iframe {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    aspect-ratio: 16 / 9;
+    border: 5px solid rgb(231, 10, 10);
+}
+#rodape {
+    background-color: var(--cor-3);
+    padding: 50px;
+    text-align: center;
+}

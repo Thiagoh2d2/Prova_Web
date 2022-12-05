@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site da Coca-cola</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="plugins/jquery.bxslider.css">
+    <link rel="stylesheet" href="plugins/magnific.popup.css">
+    <script src="plugins/jquery.min.js"></script>
+    <script src="plugins/jquery.bxslider.min.js"></script>
+    <script src="plugins/magnif.poup.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#slider').bxSlider({
+                mode: 'fade',
+                speed: '1000',
+                auto: true
+            });
+            $('#fotos').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                closeOnContentClick: false,
+                closeBtnInside: false,
+                mainClass: 'mfp-with-zoom mfp-img-mobile',
+                image: {
+                    verticalFit: true
+                },
+                gallery: {
+                    enabled: true
+                },
+                zoom: {
+                    enabled: true,
+                    duration: 300, // don't foget to change the duration also in CSS
+                    opener: function (element) {
+                        return element.find('img');
+                    }
+                }
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <a href="#"><img src="imagens/logo/LOGO_1.jpg" alt="Logo coca-cola" id="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="História.html">História</a></li>
+                    <li><a href="Produção.html">Produção</a></li>
+                    <li><a href="Publicidade.html">Publicidade</a></li>
+                    <li><a href="Impactocultural.html">Impacto cultural</a></li>
+                    <li><a href="Controvérsias.html">Controvérsias</a></li>
+                    <li><a href="https://www.coca-cola.com.br/">Site Oficial</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <section id="banners">
+        <div class="container">
+            <ul id="slider">
+                <li><img src="imagens/banners/banners_1.jpg" alt="Banner 01"></li>
+                <li><img src="imagens/banners/banners_2.jpg" alt="Banner 02"></li>
+                <li><img src="imagens/banners/banners_3.jpg" alt="Banner 03"></li>
+            </ul>
+        </div>
+    </section>  
+<h1>Coca-Cola</h1>
+    <section id="textos">
+    <div class="textos_1">
+
+        <img src="imagens/main/main_1.webp" alt="caixa com coca cola">
+
+        <p> <strong>Coca-Cola</strong>  é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.
+
+        A empresa produz o produto concentrado, que depois é vendido para engarrafadores licenciados pela Coca-Cola em todo o mundo. Os engarrafadores, que detêm contratos de exclusividade territorial com a empresa, colocam a bebida concentrada em latas e garrafas junto com água filtrada e adoçantes. Os engarrafadores, em seguida, vendem, distribuem e comercializam a Coca-Cola para lojas de varejo e máquinas de venda automática.
+
+                A The Coca-Cola Company, também produz outros refrigerantes com a marca Coca-Cola. O mais comum deles é a Coca-Cola Diet, além de outros, como a Coca-Cola sem cafeína, a Coca-Cola Diet sem cafeína, a Coca-Cola de cereja, a Coca-Cola Zero e versões especiais com limão ou café. Em 2013, os produtos Coca-Cola podiam ser encontrados em mais de 200 países ao redor do mundo, com mais de 1,8 bilhão de doses de bebidas da empresa consumidas diariamente. Com base na pesquisa da Interbrand em 2011, a Coca-Cola foi considerada a marca mais valiosa do mundo.
+
+                Em 2022, a The Cola-Cola Company apareceu em quinto lugar do ranking que reúne as 100 marcas mais valiosas do mundo da Interbrand. À época do levantamento, a empresa contava com um valor 
+                de mercado de US$ 57,5 bilhões. </p>
+
+            </div>
+
+            <h2>História</h2>
+
+            <div class="história">
+
+                <img src="./imagens/main/historia.jpg" alt="">
+
+                <p>A história da Coca-Cola inicia com a chegada do farmacêutico John Pemberton na cidade de Atlanta nos Estados Unidos, logo após a Guerra Civil americana. Ele havia acabado de participar da guerra e estava disposto a mudar de vida, em busca de uma nova clientela que comprasse suas ideias e medicamentos. Por não ter nenhuma habilidade em vendas, sempre fracassou em suas criações, até conhecer o contador Frank Robinson, que acaba tornando-se sócio.</p>
+            </div>
+                <button><a class="links" href="História.html">Saiba mais</a></button>
+
+             
+
+
+ <h2>Produção</h2>
+
+            <div class="produção">
+
+            <img src="./imagens/main/Produção.jpg" alt="">
+
+                <p>O refrigerante Coca-Cola normal tem como ingredientes, aromatizantes naturais, água gaseificada, açúcar, cafeína, extrato de Noz de cola, corante caramelo IV, acidulante Ácido Fosfórico (INS 338). É um produto não alcoólico, sem glúten e não contém quantidades significativas de proteínas, gorduras totais, gorduras saturadas, gorduras trans e fibras alimentares.</p>
+            </div> 
+
+                <button><a class="links" href="Produção.html">Saiba mais</a></button>
+
+
+            <h2>Publicidade</h2>
+
+            <div class="publicidade">
+
+                <img src="./imagens/main/Publicidade.jpg" alt="">
+
+                <p>A publicidade da Coca-Cola tem tido um impacto significativo na divulgação da cultura norte-americana, sendo frequentemente creditada à bebida a "invenção" da imagem moderna do Papai Noel ou Pai Natal como um homem idoso em roupas vermelhas e brancas, justamente as cores da Coca-Cola. Apesar disso, a companhia começou a promover esta imagem de Papai Noel somente na década de 1930, nas suas campanhas de inverno, mas a imagem do Papai Noel, com os mesmos traços já havia sido publicada num artigo do "New York Times" em 1927, sem os créditos da Coca-Cola.</p>
+            </div>
+
+            <button><a  class="links" href="Publicidade.html">Saiba mais</a></button>
+
+
+            <h2>Impacto cultural</h2>
+
+            <div class="impactocultural">
+
+                <img src="./imagens/main/Impacto cultural.jpg" alt="">
+
+                <p>No Brasil, os itens mais colecionados são os anúncios originais de época, garrafas, latas, tampinhas, pôsteres e réplicas. Um dos primeiro itens promocionais lançados no Brasil foi a réplica do caminhão que entregava as bebidas na década de 1940, e que atualmente está valendo cerca de R$1 500,00.</p>
+            </div>  
+            
+            
+            <button><a class="links" href="Impactocultural.html">Saiba mais</a></button>
+            
+            <h2>Controvérsias</h2>
+
+            <div class="controvérsias">
+
+                <img src="./imagens/main/Controvérsias.jpg" alt="">
+
+                <p>A Coca-Cola tem sido criticada devido aos alegados efeitos adversos para a saúde humana, por suas agressivas campanhas publicitárias voltadas para crianças, por práticas de exploração laboral, por altos níveis de pesticidas em seus produtos, pela construção de fábricas na Alemanha nazista que empregavam trabalho escravo, por destruição ambiental, por práticas comerciais monopolistas e por contratar unidades paramilitares para assassinar dirigentes sindicais. Em outubro de 2009, em um esforço para melhorar a sua imagem, a Coca-Cola fez uma parceria com a Academia Americana de Médicos de Família e doou 500 mil dólares para ajudar a promover a educação de estilo de vida saudável; a parceria gerou fortes críticas sobre ambos os parceiros por parte de médicos e nutricionistas.[45]
+                </p>
+            </div>
+
+                <button><a class="links" href="Controvérsias.html">Saiba mais</a></button>
+
+</section>
+            
+    
+
+    <section id="galeria">
+
+        <div class="container">
+
+            <h2 class="titulo-secao"> Fotos Da Galera </h2>
+
+            <ul id="fotos">
+                <li><a  href="imagens/fotos/foto_1.jpg"><img src="imagens/fotos/fotomax/foto_01.jpg"
+                            alt="Foto 01"></a></li>
+                <li><a href="imagens/fotos/foto_2.jpg"><img src="imagens/fotos/fotomax/foto_02.jpg"
+                            alt="Foto 02"></a></li>
+                <li><a href="imagens/fotos/foto_3.jpg"><img src="imagens/fotos/fotomax/foto_03.jpg"
+                            alt="Foto 03"></a></li>
+                <li><a href="imagens/fotos/foto_4.jpg"><img src="imagens/fotos/fotomax/foto_04.jpg"
+                            alt="Foto 04"></a></li>
+                <li><a href="imagens/fotos/foto_5.jpg"><img src="imagens/fotos/fotomax/foto_05.jpg"
+                            alt="Foto 05"></a></li>
+                <li><a href="imagens/fotos/foto_6.jpg"><img src="imagens/fotos/fotomax/foto_06.jpg"
+                            alt="Foto 06"></a></li>
+                <li><a href="imagens/fotos/foto_7.jpg"> <img src="imagens/fotos/fotomax/foto_07.jpg" alt="foto 07"></a></li>
+                <li><a href="imagens/fotos/foto_8.jpg"><img src="imagens/fotos/fotomax/foto_08.jpg"
+                            alt="Foto 08"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="apresentacao">
+        <div class="container">
+            <h2 class="titulo-secao">Coca-Cola vai deixar todo mundo com sede</h2>
+
+            <iframe width="1000" height="480" margin-top="100px" src="https://www.youtube.com/embed/efoC4SovA5k" title="Vinheta Coca-Cola vai deixar todo mundo com sede" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+    </section>
+</main>
+    <footer id="rodape">
+        <div class="container">
+
+            <p>UniRios - Centro Universitário do Rio São Francisco</p>
+
+
+            <p>Site construído na aula da disciplina de Introdução à Tecnologia à Tecnologia Web</p>
+
+            <p>Curso Sistema de Informação</p>
+
+            <p>1º périodo - Semestre 2022.2</p>
+
+            <p>Aluno: Thiago Cruz Ferreira de Melo</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
