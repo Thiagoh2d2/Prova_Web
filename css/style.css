@@ -41,16 +41,16 @@ h2{
     text-transform: uppercase;
     color: rgb(217, 28, 28);
     text-shadow: 2px 2px 6px rgb(234, 233, 233);
-    margin-right: 50%;
+  
 }
 button{
-    background-color: #10ef74;
+    background-color: #bb3131;
     margin-left: 20%;
     margin-bottom: 80px;
     width:  100spx;
     height: 50px;
     border: none;
-    outline-offset: var(--cor-2);
+    outline-offset: var(--cor-3);
     border-radius: 15px;
     transition: .3s;
     cursor: pointer;
@@ -59,7 +59,7 @@ button{
 
 }
 button:hover{
-    background-color: #0071e3;
+    background-color: #e30000;
 }
 
 :root {
@@ -79,6 +79,7 @@ button:hover{
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
+    
 }
 
 #cabecalho {
@@ -213,6 +214,7 @@ button:hover{
 }
 .links{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
 }
 #galeria {
     background-color: #888;
